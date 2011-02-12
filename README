@@ -1,0 +1,11 @@
+
+Herein are all of the bits and pieces for an HTML5-VT100
+client, using a Node server and a Socket.IO client.
+
+It does not presently work.  It was, at one time, able to
+stream a telnet connection, particularly to the
+ASCII Star Wars at towel.blinkenlights.nl.  It was never
+good at sending user input into the terminal, and I've never
+whitnessed the window sizing code affect the
+pseudo-terminal.
+

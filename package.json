@@ -1,0 +1,45 @@
+{
+    "name": "terminal",
+    "description": "An HTML5 VT100 emulator",
+    "version": "0.0.0",
+    "homepage": "http://github.com/kriskowal/terminal/",
+    "author": "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal/)",
+    "contributors": [
+        "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal/)"
+    ],
+    "bugs": {
+        "mail": "kris@cixar.com",
+        "web": "http://github.com/kriskowal/terminal/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/kriskowal/terminal/raw/master/LICENSE"
+        }
+    ],
+    "main": "lib/terminal.js",
+    "modules": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kriskowal/terminal.git"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "dependencies": {
+        "q": "0.2.8",
+        "q-comm": "0.1.2",
+        "q-util": "0.0.2",
+        "q-http": "0.0.5",
+        "jaque": "0.1.8",
+        "n-util": "0.0.1",
+        "uuid": "0.0.2"
+    },
+    "overlay": {
+    },
+    "directories": {
+    },
+    "scripts": {
+    }
+}
