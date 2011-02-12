@@ -1,7 +1,6 @@
 
 var Q = require("q-util");
 var TTY = require("tty");
-var PTY = require("pty");
 var Stream = require("net").Stream;
 var Terminal = require("./terminal").Terminal;
 var UUID = require("uuid");
@@ -87,10 +86,9 @@ function Session(host) {
                     var size = message.content;
                     width = size.width;
                     height = size.height;
-                    PTY.setSize(fd, {rows: height, columns: width});
+                    TTY.setWindowSize(fd, {rows: height, columns: width});
                     terminal = Terminal(width, height);
                     terminal.write(replay);
-                    tty.setSize({rows: height, columns: width});
                     update();
                 }
             }
