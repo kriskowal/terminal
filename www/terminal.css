@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#terminal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#terminal pre {
+    margin: 0;
+    padding: 0;
+}
+pre .f0  { color: #000; }
+pre .f1  { color: #b00; }
+pre .f2  { color: #0b0; }
+pre .f3  { color: #bb0; }
+pre .f4  { color: #00b; }
+pre .f5  { color: #b0b; }
+pre .f6  { color: #0bb; }
+pre .f7  { color: #bbb; }
+pre .f8  { color: #666; }
+pre .f9  { color: #f00; }
+pre .f10 { color: #0f0; }
+pre .f11 { color: #ff0; }
+pre .f12 { color: #00f; }
+pre .f13 { color: #f0f; }
+pre .f14 { color: #0ff; }
+pre .f15 { color: #fff; }
+pre .b0  { background-color: #000; }
+pre .b1  { background-color: #b00; }
+pre .b2  { background-color: #0b0; }
+pre .b3  { background-color: #bb0; }
+pre .b4  { background-color: #00b; }
+pre .b5  { background-color: #b0b; }
+pre .b6  { background-color: #0bb; }
+pre .b7  { background-color: #bbb; }
+body.disconnected pre .cursor { background-color: #700 }
+body.connected pre .cursor { background-color: #bbb }
+
